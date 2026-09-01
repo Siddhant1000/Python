@@ -311,7 +311,4 @@
 # b[0] = 100
 # print(a)
 
-a = [1,2,3,4,5,6,7,8,9]
-
-for i in range(len(a)+1):
-    print(i) 
+print("Hello")
