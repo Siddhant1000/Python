@@ -310,5 +310,3 @@ b = a.copy()
 
 b[0] = 100
 print(a)
-
-print("Test Hello World")
