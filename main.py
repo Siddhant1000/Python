@@ -310,5 +310,3 @@
 
 # b[0] = 100
 # print(a)
-
-print("Hello")
