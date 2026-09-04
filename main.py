@@ -350,10 +350,24 @@
 # print(d1)
 
 
-d = {1:100,2:200,3:300,4:400}
+# d = {1:100,2:200,3:300,4:400}
 
-sum = 0
-for i in d:  
-    sum = sum + d[i]
+# sum = 0
+# for i in d:  
+#     sum = sum + d[i]
 
-print(sum)
+# print(sum)
+
+a = [1,1,1,2,2,2,2,3,3,4,4,4,4,4,4,4,5,6,6,6,7,8,9]
+
+dict = {}
+
+for i in a:
+    if i in dict:
+        dict[i] += 1
+    else:
+        dict[i] = 1
+
+print(dict)
+
+print(f"Your unique elements are {list(dict.keys())}")
